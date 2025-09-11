@@ -1,0 +1,31 @@
+<%-include ("partials/header.ejs") %>
+<% if(locals.postEdit) {%>
+<div class="container col-md-8">
+        		            <form action="/editPost" method="POST">
+                              <div class="form-group row">
+                                
+                                <label for="text" class="col-12 col-form-label">Enter Title here</label> 
+                                <div class="col-12">
+                                  <input id="text" name="text" placeholder="Enter Title here" class="form-control here" required="required" type="text" value="<%= postEdit.title %>">
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="textarea" class="col-12 col-form-label">Visual Editor</label> 
+                                <div class="col-12">
+                                  <textarea id="textarea" name="textarea" cols="40" rows="10" class="form-control"><%= postEdit.essay %></textarea>
+                                  
+                                </div>
+                              <div class="form-group row">
+                                <div class="col-10 col-lg-11">
+                                  <button type="submit" name="editPublish" value="<%= index %>" class="btn btn-publish mt-3">Edit Post</button>
+                                </div>
+                                <div class="col-2 col-lg-1 date mt-3">
+                                  <p class="px-0 mx-0" id="date"><%= new Date().toLocaleDateString('en-US')  %></p>
+                              </div>
+                                </div>
+                              </div> 
+                            </form>
+        		        </div>
+<br>
+<% } %>
+<%-include ("partials/footer.ejs") %>

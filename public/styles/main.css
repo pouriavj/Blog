@@ -1,0 +1,118 @@
+html{
+    background-color: #F2F2F2;
+}
+h1, h2 ,h4{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+.features{
+    font-weight: 550;
+    
+}
+
+h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+@media (max-width: 767.98px) { 
+    h2{
+        font-size: 28px;
+    }
+   
+  
+ }
+
+h3{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+ @media (max-width: 767.98px) { 
+    
+    h3{
+        font-size: 12px;
+    }
+ }
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.posts{
+    font-size: x-large;
+}
+.blogPost{
+    text-align: justify;
+    text-justify: auto;
+    line-height: 1.7;
+    margin-right: 8px;
+}
+.date{
+    margin-top: 12px;
+}
+.textBody{
+    text-align: justify;
+    font-size: 17.25px;
+    
+
+}
+.title{
+    border-left: 10px solid #1B3C53;
+    padding-left: 20px;
+    
+    
+}
+.btn-custom-blue {
+        background-color: #1B3C53; 
+        border-color: #1B3C53;
+        color: #f3f3f2; /* Text color for contrast */
+    }
+
+    /* For hover/focus states */
+    .btn-custom-blue:hover,
+    .btn-custom-blue:focus {
+        background-color: #369ce6; /* Darker purple on hover */
+        border-color: #F9F3EF;
+        color: #f3f3f2;
+    }
+.home{
+    color:#456882 ;
+}
+.about{
+    color:#456882 ;
+
+}
+.btn-publish{
+        background-color: #4D2D8C; 
+        
+        color: white; /* Text color for contrast */
+    }
+
+    /* For hover/focus states */
+    .btn-publish:hover,
+    .btn-publish:focus {
+        background-color: #1B3C53; /* Darker purple on hover */
+        border-color: #F9F3EF;
+        color: #f3f3f2;
+}
+.btn-warning{
+    background-color: #FF714B;
+    color: white;
+}
+.btn-danger{
+    background-color: #C71E64;
+}
+.btn-danger:hover,
+    .btn-danger:focus {
+        background-color: red; /* Darker purple on hover */
+        border-color: #F9F3EF;
+        color: #f3f3f2;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.list{
+    background-color: #F2F2F2;
+}

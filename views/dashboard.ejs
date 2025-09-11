@@ -1,0 +1,76 @@
+<%-include ("partials/header.ejs")  %>
+<div class="container col-md-8">
+        		            <form action="/dashboard" method="POST">
+                              <div class="form-group row">
+                                
+                                <label for="text" class="col-12 col-form-label">Enter Title here</label> 
+                                <div class="col-12">
+                                  <input id="text" name="text" placeholder="Enter Title here" class="form-control here" required="required" type="text">
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="textarea" class="col-12 col-form-label">Visual Editor</label> 
+                                <div class="col-12">
+                                  <textarea id="textarea" name="textarea" cols="40" rows="10" class="form-control"></textarea>
+                                  
+                                </div>
+                              <div class="form-group row">
+                                <div class="col-10 col-lg-11">
+                                  <button type="submit" value="OK" class="btn btn-publish mt-3">Publish</button>
+                                </div>
+                                <div class="col-2 col-lg-1 date mt-3">
+                                  <p class="px-0 mx-0" id="date"><%= new Date().toLocaleDateString('en-US')  %></p>
+                              </div>
+                                </div>
+                              </div> 
+                            </form>
+        		        </div>
+<br>
+<% if(locals.allPosts) {%>                    
+<section>
+  <div class="container">
+  <div>
+    <div>
+      <br />
+      <div class="row">
+        <h2 class="posts pb-4 mb-4 fst-italic border-bottom">Your posts</h2>
+      </div>
+      <div>
+        <% for(let i = 0 ; i < allPosts.length ; i++) {%>
+          
+            
+          <div class="row list p-3 mx-0">         
+           <h2 class="col-sm-10 mr-2"><%= allPosts[i].title %></h2>
+        
+          <div class="col-sm-2 p-0 buttons">
+               
+               <form action="/edit" method="post">
+                <button type="submit" name="edit" value="<%= i %>" class="btn btn-warning btn-md mt-3">Edit</button>
+               </form>
+
+               <form action="/delete" method="post">
+                <button type="submit" name="delete" value="<%= i %>" class="btn btn-danger btn-md mt-3">Delete</button>
+               </form>
+          </div>
+
+
+
+        
+        <h3 class="date"><%= date %></h3>
+        </div>
+        <hr class="m-0">
+        
+        
+        
+        <br />
+        <%} %>
+      </div>
+    </div>
+    
+  </div>
+</div>  
+</section>
+<% } %>
+<%-include ("partials/footer.ejs")  %>
+
+                       

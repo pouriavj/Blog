@@ -1,0 +1,30 @@
+<% const d = new Date(); let year = d.getFullYear(); %>
+<div class="container">
+  <footer
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mb-0"
+  >
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="mb-3 mb-md-0 text-body-secondary"
+        >Copyright © <%= year %></span
+      >
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a
+          class="text-body-secondary"
+          href="https://github.com/"
+          aria-label="Github"
+          ><img src="images/github.svg" height="25" alt="github"
+        /></a>
+      </li>
+      <li class="ms-3">
+        <a
+          class="text-body-secondary"
+          href="https://www.linkedin.com/"
+          aria-label="Linkedin"
+          ><img src="images/linkedin.svg" height="25" alt="linkedin"
+        /></a>
+      </li>
+    </ul>
+  </footer>
+</div>
