@@ -4,9 +4,9 @@ Built and designed completely from scratch .
 #### <sub>Back-end + Front-end</sub>
 
 ### Blog screen shots
-#### Home page
+#### Home page:
 ![home page](https://github.com/pouriavj/Blog/blob/main/blog-home.jpg?raw=true)
 ----
-#### Dashboard page
+#### Dashboard page:
 ![home page](https://github.com/pouriavj/Blog/blob/main/blog-dashboard.jpg?raw=true)
 
