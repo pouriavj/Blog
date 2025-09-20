@@ -29,7 +29,7 @@ Follow these steps to run the project locally:
    node index.js
    ```
    The app will be available at 👉 http://localhost:3000
-4. **(Optional) Change the port**
+4. **(Optional) Change the port**<br/>
    Open `index.js` and modify:
    ```javascript
    const port = 3000; // change this to your preferred port
