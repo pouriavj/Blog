@@ -44,3 +44,25 @@ Follow these steps to run the project locally:
 - ⚡ Built with **Node.js** and **Express**
 
 ---
+## 📸 Screenshots
+
+### 🏠 Home Page  
+![Home Page](https://github.com/pouriavj/Blog/blob/main/blog-home.jpg?raw=true)
+
+### 📊 Dashboard Page  
+![Dashboard Page](https://github.com/pouriavj/Blog/blob/main/blog-dashboard.jpg?raw=true)
+
+---
+
+## 🛠️ Built With
+
+- [Node.js](https://nodejs.org/)  
+- [Express](https://expressjs.com/)  
+- [EJS](https://ejs.co/)  
+- HTML, CSS, JavaScript
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
