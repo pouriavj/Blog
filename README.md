@@ -31,3 +31,7 @@ Follow these steps to run the project locally:
    The app will be available at 👉 http://localhost:3000
 4. **(Optional) Change the port**
    Open `index.js` and modify:
+   ```javascript
+   const port = 3000; // change this to your preferred port
+   ```
+   
