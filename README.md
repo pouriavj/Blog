@@ -24,3 +24,10 @@ Follow these steps to run the project locally:
     ```bash
    npm install
    ```
+3. **Start the server**
+   ```bash
+   node index.js
+   ```
+   The app will be available at 👉 http://localhost:3000
+4. **(Optional) Change the port**
+   Open index.js and modify:
