@@ -34,4 +34,13 @@ Follow these steps to run the project locally:
    ```javascript
    const port = 3000; // change this to your preferred port
    ```
-   
+---
+
+## ✨ Features
+
+- 🖋️ Create, edit, and delete blog posts  
+- 📂 Dashboard to manage content  
+- 🌐 Simple and responsive design  
+- ⚡ Built with **Node.js** and **Express**
+
+---
