@@ -58,7 +58,8 @@ Follow these steps to run the project locally:
 
 - [Node.js](https://nodejs.org/)  
 - [Express](https://expressjs.com/)  
-- [EJS](https://ejs.co/)  
+- [EJS](https://ejs.co/)
+- [Bootstrap 5](https://getbootstrap.com/)
 - HTML, CSS, JavaScript
 
 ---
