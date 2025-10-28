@@ -3,7 +3,10 @@
 ![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)
 ![Express](https://img.shields.io/badge/Express.js-4.18-black?logo=express)
 ![EJS](https://img.shields.io/badge/EJS-3.1-red?logo=ejs)
-![ES6](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple?logo=bootstrap)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 
