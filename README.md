@@ -1,5 +1,12 @@
 # 📝 Blog  
 
+![Node.js](https://img.shields.io/badge/Node.js-18-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-4.18-black?logo=express)
+![EJS](https://img.shields.io/badge/EJS-3.1-red?logo=ejs)
+![ES6](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+
 A lightweight and full-stack **weblog application** where users can:  
 - ✍️ Create posts  
 - 💾 Save posts  
